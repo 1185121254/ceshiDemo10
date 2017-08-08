@@ -9,12 +9,29 @@
 /* Begin PBXBuildFile section */
 		641A3F751EC3AF400005EDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3F741EC3AF400005EDF1 /* main.m */; };
 		641A3F781EC3AF400005EDF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3F771EC3AF400005EDF1 /* AppDelegate.m */; };
-		641A3F7B1EC3AF400005EDF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3F7A1EC3AF400005EDF1 /* ViewController.m */; };
-		641A3F7E1EC3AF400005EDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641A3F7C1EC3AF400005EDF1 /* Main.storyboard */; };
 		641A3F801EC3AF400005EDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641A3F7F1EC3AF400005EDF1 /* Assets.xcassets */; };
-		641A3F831EC3AF400005EDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641A3F811EC3AF400005EDF1 /* LaunchScreen.storyboard */; };
 		641A3F8E1EC3AF400005EDF1 /* ceshiDemo10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3F8D1EC3AF400005EDF1 /* ceshiDemo10Tests.m */; };
 		641A3F991EC3AF400005EDF1 /* ceshiDemo10UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3F981EC3AF400005EDF1 /* ceshiDemo10UITests.m */; };
+		641A3FA91EC3AF5B0005EDF1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3FA71EC3AF5B0005EDF1 /* MainViewController.m */; };
+		641A3FAA1EC3AF5B0005EDF1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 641A3FA81EC3AF5B0005EDF1 /* MainViewController.xib */; };
+		641A3FB01EC3B2D00005EDF1 /* jcore-ios-1.1.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FAD1EC3B2D00005EDF1 /* jcore-ios-1.1.3.a */; };
+		641A3FB11EC3B2D00005EDF1 /* jpush-ios-3.0.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FAE1EC3B2D00005EDF1 /* jpush-ios-3.0.5.a */; };
+		641A3FB41EC3B9F40005EDF1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FB31EC3B9F40005EDF1 /* CFNetwork.framework */; };
+		641A3FB61EC3B9FD0005EDF1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FB51EC3B9FD0005EDF1 /* CoreFoundation.framework */; };
+		641A3FB81EC3BA080005EDF1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FB71EC3BA080005EDF1 /* CoreTelephony.framework */; };
+		641A3FBA1EC3BA1A0005EDF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FB91EC3BA1A0005EDF1 /* SystemConfiguration.framework */; };
+		641A3FBC1EC3BA260005EDF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FBB1EC3BA260005EDF1 /* CoreGraphics.framework */; };
+		641A3FBE1EC3BA2E0005EDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FBD1EC3BA2E0005EDF1 /* Foundation.framework */; };
+		641A3FC01EC3BA370005EDF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FBF1EC3BA370005EDF1 /* UIKit.framework */; };
+		641A3FC21EC3BA400005EDF1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FC11EC3BA400005EDF1 /* Security.framework */; };
+		641A3FC41EC3BA4D0005EDF1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FC31EC3BA4D0005EDF1 /* libz.tbd */; };
+		641A3FC61EC3BA560005EDF1 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FC51EC3BA560005EDF1 /* UserNotifications.framework */; };
+		641A3FC81EC3BA650005EDF1 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A3FC71EC3BA650005EDF1 /* libresolv.tbd */; };
+		641A3FCE1EC3BE490005EDF1 /* fristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3FCC1EC3BE490005EDF1 /* fristViewController.m */; };
+		641A3FCF1EC3BE490005EDF1 /* fristViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 641A3FCD1EC3BE490005EDF1 /* fristViewController.xib */; };
+		641A3FD31EC3BE5A0005EDF1 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3FD11EC3BE5A0005EDF1 /* TwoViewController.m */; };
+		641A3FD41EC3BE5A0005EDF1 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 641A3FD21EC3BE5A0005EDF1 /* TwoViewController.xib */; };
+		64A1AC7B1EC4BFA9009B8483 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641A3FA71EC3AF5B0005EDF1 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +56,7 @@
 		641A3F741EC3AF400005EDF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		641A3F761EC3AF400005EDF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		641A3F771EC3AF400005EDF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		641A3F791EC3AF400005EDF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		641A3F7A1EC3AF400005EDF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		641A3F7D1EC3AF400005EDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		641A3F7F1EC3AF400005EDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		641A3F821EC3AF400005EDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		641A3F841EC3AF400005EDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		641A3F891EC3AF400005EDF1 /* ceshiDemo10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshiDemo10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		641A3F8D1EC3AF400005EDF1 /* ceshiDemo10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiDemo10Tests.m; sourceTree = "<group>"; };
@@ -51,6 +64,30 @@
 		641A3F941EC3AF400005EDF1 /* ceshiDemo10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshiDemo10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		641A3F981EC3AF400005EDF1 /* ceshiDemo10UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiDemo10UITests.m; sourceTree = "<group>"; };
 		641A3F9A1EC3AF400005EDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641A3FA61EC3AF5B0005EDF1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		641A3FA71EC3AF5B0005EDF1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		641A3FA81EC3AF5B0005EDF1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		641A3FAB1EC3AF820005EDF1 /* ceshiDemo10-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ceshiDemo10-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		641A3FAD1EC3B2D00005EDF1 /* jcore-ios-1.1.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.3.a"; sourceTree = "<group>"; };
+		641A3FAE1EC3B2D00005EDF1 /* jpush-ios-3.0.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.5.a"; sourceTree = "<group>"; };
+		641A3FAF1EC3B2D00005EDF1 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		641A3FB31EC3B9F40005EDF1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		641A3FB51EC3B9FD0005EDF1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		641A3FB71EC3BA080005EDF1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		641A3FB91EC3BA1A0005EDF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		641A3FBB1EC3BA260005EDF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		641A3FBD1EC3BA2E0005EDF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		641A3FBF1EC3BA370005EDF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		641A3FC11EC3BA400005EDF1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		641A3FC31EC3BA4D0005EDF1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		641A3FC51EC3BA560005EDF1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		641A3FC71EC3BA650005EDF1 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		641A3FCB1EC3BE490005EDF1 /* fristViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fristViewController.h; sourceTree = "<group>"; };
+		641A3FCC1EC3BE490005EDF1 /* fristViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fristViewController.m; sourceTree = "<group>"; };
+		641A3FCD1EC3BE490005EDF1 /* fristViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fristViewController.xib; sourceTree = "<group>"; };
+		641A3FD01EC3BE5A0005EDF1 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		641A3FD11EC3BE5A0005EDF1 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		641A3FD21EC3BE5A0005EDF1 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641A3FC81EC3BA650005EDF1 /* libresolv.tbd in Frameworks */,
+				641A3FC61EC3BA560005EDF1 /* UserNotifications.framework in Frameworks */,
+				641A3FC41EC3BA4D0005EDF1 /* libz.tbd in Frameworks */,
+				641A3FC21EC3BA400005EDF1 /* Security.framework in Frameworks */,
+				641A3FC01EC3BA370005EDF1 /* UIKit.framework in Frameworks */,
+				641A3FBE1EC3BA2E0005EDF1 /* Foundation.framework in Frameworks */,
+				641A3FBC1EC3BA260005EDF1 /* CoreGraphics.framework in Frameworks */,
+				641A3FBA1EC3BA1A0005EDF1 /* SystemConfiguration.framework in Frameworks */,
+				641A3FB81EC3BA080005EDF1 /* CoreTelephony.framework in Frameworks */,
+				641A3FB61EC3B9FD0005EDF1 /* CoreFoundation.framework in Frameworks */,
+				641A3FB41EC3B9F40005EDF1 /* CFNetwork.framework in Frameworks */,
+				641A3FB01EC3B2D00005EDF1 /* jcore-ios-1.1.3.a in Frameworks */,
+				641A3FB11EC3B2D00005EDF1 /* jpush-ios-3.0.5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +131,12 @@
 		641A3F671EC3AF400005EDF1 = {
 			isa = PBXGroup;
 			children = (
+				641A3FAC1EC3B2D00005EDF1 /* Lib */,
 				641A3F721EC3AF400005EDF1 /* ceshiDemo10 */,
 				641A3F8C1EC3AF400005EDF1 /* ceshiDemo10Tests */,
 				641A3F971EC3AF400005EDF1 /* ceshiDemo10UITests */,
 				641A3F711EC3AF400005EDF1 /* Products */,
+				641A3FB21EC3B9F40005EDF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +155,9 @@
 			children = (
 				641A3F761EC3AF400005EDF1 /* AppDelegate.h */,
 				641A3F771EC3AF400005EDF1 /* AppDelegate.m */,
-				641A3F791EC3AF400005EDF1 /* ViewController.h */,
-				641A3F7A1EC3AF400005EDF1 /* ViewController.m */,
-				641A3F7C1EC3AF400005EDF1 /* Main.storyboard */,
+				641A3FC91EC3BDEA0005EDF1 /* Main */,
+				641A3FCA1EC3BE0A0005EDF1 /* SelectedController */,
 				641A3F7F1EC3AF400005EDF1 /* Assets.xcassets */,
-				641A3F811EC3AF400005EDF1 /* LaunchScreen.storyboard */,
-				641A3F841EC3AF400005EDF1 /* Info.plist */,
 				641A3F731EC3AF400005EDF1 /* Supporting Files */,
 			);
 			path = ceshiDemo10;
@@ -117,7 +166,9 @@
 		641A3F731EC3AF400005EDF1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				641A3F841EC3AF400005EDF1 /* Info.plist */,
 				641A3F741EC3AF400005EDF1 /* main.m */,
+				641A3FAB1EC3AF820005EDF1 /* ceshiDemo10-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +189,58 @@
 				641A3F9A1EC3AF400005EDF1 /* Info.plist */,
 			);
 			path = ceshiDemo10UITests;
+			sourceTree = "<group>";
+		};
+		641A3FAC1EC3B2D00005EDF1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				641A3FAD1EC3B2D00005EDF1 /* jcore-ios-1.1.3.a */,
+				641A3FAE1EC3B2D00005EDF1 /* jpush-ios-3.0.5.a */,
+				641A3FAF1EC3B2D00005EDF1 /* JPUSHService.h */,
+			);
+			name = Lib;
+			path = "../极光推送SDK/JPush-iOS-SDK-3/Lib";
+			sourceTree = "<group>";
+		};
+		641A3FB21EC3B9F40005EDF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				641A3FC71EC3BA650005EDF1 /* libresolv.tbd */,
+				641A3FC51EC3BA560005EDF1 /* UserNotifications.framework */,
+				641A3FC31EC3BA4D0005EDF1 /* libz.tbd */,
+				641A3FC11EC3BA400005EDF1 /* Security.framework */,
+				641A3FBF1EC3BA370005EDF1 /* UIKit.framework */,
+				641A3FBD1EC3BA2E0005EDF1 /* Foundation.framework */,
+				641A3FBB1EC3BA260005EDF1 /* CoreGraphics.framework */,
+				641A3FB91EC3BA1A0005EDF1 /* SystemConfiguration.framework */,
+				641A3FB71EC3BA080005EDF1 /* CoreTelephony.framework */,
+				641A3FB51EC3B9FD0005EDF1 /* CoreFoundation.framework */,
+				641A3FB31EC3B9F40005EDF1 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		641A3FC91EC3BDEA0005EDF1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				641A3FA61EC3AF5B0005EDF1 /* MainViewController.h */,
+				641A3FA71EC3AF5B0005EDF1 /* MainViewController.m */,
+				641A3FA81EC3AF5B0005EDF1 /* MainViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		641A3FCA1EC3BE0A0005EDF1 /* SelectedController */ = {
+			isa = PBXGroup;
+			children = (
+				641A3FCB1EC3BE490005EDF1 /* fristViewController.h */,
+				641A3FCC1EC3BE490005EDF1 /* fristViewController.m */,
+				641A3FCD1EC3BE490005EDF1 /* fristViewController.xib */,
+				641A3FD01EC3BE5A0005EDF1 /* TwoViewController.h */,
+				641A3FD11EC3BE5A0005EDF1 /* TwoViewController.m */,
+				641A3FD21EC3BE5A0005EDF1 /* TwoViewController.xib */,
+			);
+			name = SelectedController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +352,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				641A3F831EC3AF400005EDF1 /* LaunchScreen.storyboard in Resources */,
 				641A3F801EC3AF400005EDF1 /* Assets.xcassets in Resources */,
-				641A3F7E1EC3AF400005EDF1 /* Main.storyboard in Resources */,
+				641A3FCF1EC3BE490005EDF1 /* fristViewController.xib in Resources */,
+				641A3FAA1EC3AF5B0005EDF1 /* MainViewController.xib in Resources */,
+				641A3FD41EC3BE5A0005EDF1 /* TwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +380,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				641A3F7B1EC3AF400005EDF1 /* ViewController.m in Sources */,
 				641A3F781EC3AF400005EDF1 /* AppDelegate.m in Sources */,
+				641A3FA91EC3AF5B0005EDF1 /* MainViewController.m in Sources */,
 				641A3F751EC3AF400005EDF1 /* main.m in Sources */,
+				641A3FD31EC3BE5A0005EDF1 /* TwoViewController.m in Sources */,
+				641A3FCE1EC3BE490005EDF1 /* fristViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				641A3F8E1EC3AF400005EDF1 /* ceshiDemo10Tests.m in Sources */,
+				64A1AC7B1EC4BFA9009B8483 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,25 +419,6 @@
 			targetProxy = 641A3F951EC3AF400005EDF1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		641A3F7C1EC3AF400005EDF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				641A3F7D1EC3AF400005EDF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		641A3F811EC3AF400005EDF1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				641A3F821EC3AF400005EDF1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		641A3F9B1EC3AF400005EDF1 /* Debug */ = {
@@ -364,6 +452,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -411,6 +500,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -429,7 +519,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CSHWSD3VEH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chaojie/Desktop/ 工作文件夹/ceshiDemo10/ceshiDemo10-Prefix.pch";
 				INFOPLIST_FILE = ceshiDemo10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsy.ceshiDemo10;
@@ -441,7 +534,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CSHWSD3VEH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chaojie/Desktop/ 工作文件夹/ceshiDemo10/ceshiDemo10-Prefix.pch";
 				INFOPLIST_FILE = ceshiDemo10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsy.ceshiDemo10;
@@ -518,6 +614,7 @@
 				641A3F9F1EC3AF400005EDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		641A3FA01EC3AF400005EDF1 /* Build configuration list for PBXNativeTarget "ceshiDemo10Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +623,7 @@
 				641A3FA21EC3AF400005EDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		641A3FA31EC3AF400005EDF1 /* Build configuration list for PBXNativeTarget "ceshiDemo10UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +632,7 @@
 				641A3FA51EC3AF400005EDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TwoViewController.h
 //  ceshiDemo10
 //
 //  Created by chaojie on 2017/5/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TwoViewController : UIViewController
 
 @end
-
